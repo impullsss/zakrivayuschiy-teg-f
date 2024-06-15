@@ -213,8 +213,10 @@
   outline: none;
 }
 
-.card .like-icon {
-  inline-size: 100%;
+
+.like-icon {
+  block-size: 44px;
+  inline-size: 39px;
 }
 
 .card .sparks {
