@@ -11,6 +11,7 @@
   --themes-button-text-color: #fff;
   --themes-font-weight-title: 700;
   --themes-font-weight-content: 400;
+  --themes-label-color:transparent;
   --background: repeating-linear-gradient(
       90deg,
       #d3d3d3 0px 2px,
@@ -27,6 +28,7 @@
     --themes-button-text-color: #fff;
     --themes-font-weight-title: 700;
     --themes-font-weight-content: 400;
+    --themes-label-color:transparent;
     --background: repeating-linear-gradient(
         90deg,
         #d3d3d3 0px 2px,
@@ -47,6 +49,7 @@
   --themes-button-text-color: #00cc14;
   --themes-font-weight-title: 785;
   --themes-font-weight-content: 465;
+  --themes-label-color:#00cc14;
   --background: repeating-linear-gradient(
       90deg,
       black 0px 2px,

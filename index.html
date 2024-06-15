@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru" class="theme-auto">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -16,8 +17,8 @@
   <body class="page">
     <header class="header">
       <div class="header__logo">
-        <h1 class="header__title">&lt;/HTML&gt;</h1>
-        <h2 class="header__description">ЗАКРЫВАЮЩИЙ ТЕГ</h2>
+        <a class="header__title">&lt;/html&gt;</a>
+        <h1 class="header__description">Закрывающий тег</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -52,13 +53,14 @@
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="wrapper">
-          <p class="card__label">&lt;/HTML&gt;</p>
+          <p class="card__label">&lt;/html&gt;</p>
           <img
             class="card__image"
             src="./images/image.png"
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           Это было самое начало пути. На этом этапе важно было проникнуться
           основами и настроиться на учёбу. И, возможно, подумать, как новые
@@ -68,11 +70,11 @@
           Let's go!
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
-            <svg
+          <button type="button" class="card__icon-button">
+            <svg 
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -99,8 +101,8 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
@@ -117,6 +119,7 @@
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. 
           Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. 
@@ -126,11 +129,11 @@
           Проект "Чистый лист" для меня был как первый монстр на котором ты нажимаешь все кнопки подряд с смотришь что из этого выйдет.
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -157,8 +160,8 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
@@ -175,6 +178,7 @@
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала. 
           Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
@@ -183,11 +187,11 @@
           Это было лишь начало пути, и сдататься в на этом моменте означало бы безоговорочную капитуляцию.
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -214,8 +218,8 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
@@ -232,6 +236,7 @@
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. 
           Вы могли попытаться погнаться за идеалом и понять, что он недостижим. 
@@ -241,11 +246,11 @@
           Я долго пытался победить проект «Посмотри в окно» и с 3 попытки у меня все же получилось.
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -272,8 +277,8 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
@@ -290,6 +295,7 @@
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира).
            Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался. 
@@ -299,11 +305,11 @@
           Я сражался как лев, как тигр, как лигр! И вышел из него победителем.
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -330,8 +336,8 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
@@ -348,6 +354,7 @@
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           На этом курсе вы постоянно решали разные задачи. 
           В какой-то момент вам могло показаться, что решения просто иссякли.
@@ -357,11 +364,11 @@
           В какой то моменте я думал что не справлюсь, но сдал с 4 попытки.
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -388,8 +395,8 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
@@ -406,6 +413,7 @@
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. 
           Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. 
@@ -415,11 +423,11 @@
           Между 3 и 4 спринтом мне пришлось взять перерыв на написание диплома и закрытие практики, я до сих пор не знаю кто такая ваша концентрация.
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -446,8 +454,8 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
@@ -464,6 +472,7 @@
             alt="Картинка в стиле пиксельной графики на которой изображён автодом, остановившийся на ночлег в ночи"
           />
         </div>
+        <div class="card__description-decorater"></div>
         <p class="card__description">
           Сейчас вы уже очень много знаете о вёрстке. 
           Но это только начало. Во-первых, впереди ещё много материала про «красотищу». 
@@ -475,11 +484,11 @@
           Сегодня 14.06 я сдал диплом, после чего сел доделывать 4 проект по спринту. За двое суток я поспал менее 5 часов, но чувствую себя хорошо. Посмотрим что будет дальше.
         </p>
         <div class="card__button-section">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 39 36"
+              viewBox="-7 -1 39 30"
             >
               <g class="heart">
                 <path
@@ -506,28 +515,29 @@
             </svg>
           </button>
 
-          <button class="card__like-button">
-            <span class="button__text">Unlike</span>
+          <button type="button" class="card__like-button fill__button">
+            <span class="button__text">Like</span>
           </button>
         </div>
       </article>
 
+      <div class="footer">
+        <button type="button" class="footer__button fill__button" type="button" onclick="window['dialog'].showModal()" aria-controls="dialog">
+          <svg class="button-icon" viewBox="0 0 28 28">
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="button-text">Сохранить на память</span>
+        </button>
+      </div>
     </main>
-    <footer class="footer">
-      <button class="footer__button" type="button" onclick="window['dialog'].show()" arial-controls="dialog">
-        <svg class="button-icon" viewBox="0 0 28 28">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button-text">Сохранить на память</span>
-      </button>
-    </footer>
+    
     <dialog class="dialog" id="dialog">
       <div class="popup">
         <svg class="popup__icon" viewBox="0 0 28 28">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <p class="popup__text">Вставьте дискету, чтобы продолжить</p>
-        <button class="popup__button" type="button" onclick="window['dialog'].close()" arial-controls="dialog">
+        <button type="button" class="popup__button fill__button" type="button" onclick="window['dialog'].close()" aria-controls="dialog">
           <span class="popup__button-text">ок</span>
         </button>
       </div>
